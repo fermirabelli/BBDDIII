@@ -29,3 +29,6 @@ x.train <- data[1:floor(nrow(x)*.75), ]
 x.test <- data[(floor(nrow(x)*.75)+1):nrow(x), ]
 
 
+# crear un dataframe seleccionando filas con algun criterio (tipo where de sql)
+newdata <- subset(data, variable1=="Y" )
+                  
