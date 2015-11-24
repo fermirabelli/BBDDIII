@@ -19,6 +19,9 @@
 
   data_clasif$prediction <- predict(model, newdata=data_clasif)
 
-
+  # Precisión del clasificador.
+  x.evaluate$correct <- x.evaluate$prediction == x.evaluate$compro.f
+  print(paste("% de predicciones de clasificacion correctas", mean(x.evaluate$correct)))
+  
 
 
