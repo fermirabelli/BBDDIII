@@ -31,4 +31,15 @@ x.test <- data[(floor(nrow(x)*.75)+1):nrow(x), ]
 
 # crear un dataframe seleccionando filas con algun criterio (tipo where de sql)
 newdata <- subset(data, variable1=="Y" )
+
+
+
+#Eliminar espacios al principio y al final de un texto 
+
+trimfunc <- function (x) gsub("^\\s+|\\s+$", "", x)
+
+#Para usar la funcion 
+    
+df$text <- trim(df$text)
+
                   
