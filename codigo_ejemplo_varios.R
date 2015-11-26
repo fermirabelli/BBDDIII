@@ -40,6 +40,6 @@ trimfunc <- function (x) gsub("^\\s+|\\s+$", "", x)
 
 #Para usar la funcion 
     
-df$text <- trim(df$text)
+df$text <- trimfunc(df$text)
 
                   
