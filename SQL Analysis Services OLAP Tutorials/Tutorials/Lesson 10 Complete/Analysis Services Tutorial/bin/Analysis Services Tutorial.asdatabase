@@ -1,4 +1,4 @@
-﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Analysis Services Tutorial</ID>
   <Name>Analysis Services Tutorial</Name>
   <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
@@ -32,7 +32,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000ac11000088130000" />
                 </control>
@@ -121,6 +121,7 @@
           </NameColumn>
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Calendar</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Calendar Semester</ID>
@@ -160,6 +161,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Calendar</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Calendar Quarter</ID>
@@ -203,6 +205,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Calendar</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Month Name</ID>
@@ -275,6 +278,7 @@
           </AttributeRelationships>
           <OrderBy>AttributeKey</OrderBy>
           <OrderByAttributeID>Month Number Of Year</OrderByAttributeID>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>TimeKey</ID>
@@ -305,6 +309,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Fiscal Quarter</ID>
@@ -341,6 +346,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <AttributeHierarchyDisplayFolder>Fiscal</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Fiscal Semester</ID>
@@ -377,6 +383,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <AttributeHierarchyDisplayFolder>Fiscal</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Fiscal Year</ID>
@@ -400,6 +407,7 @@
             </Source>
           </NameColumn>
           <AttributeHierarchyDisplayFolder>Fiscal</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Month Number Of Year</ID>
@@ -416,6 +424,7 @@
           <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Periods</AttributeAllMemberName>
@@ -519,7 +528,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="7903" top="16083" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="7903" top="16083" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                 </control>
@@ -530,7 +539,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="32748" top="29600" logicalid="3" controlid="2" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="32748" top="29600" logicalid="3" controlid="2" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000f310000088130000" />
                 </control>
@@ -541,7 +550,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="32510" top="22200" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="32510" top="22200" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                 </control>
@@ -552,7 +561,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="14220" top="8683" logicalid="5" controlid="4" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="14220" top="8683" logicalid="5" controlid="4" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000e111000088130000" />
                 </control>
@@ -563,7 +572,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="14669" top="18500" logicalid="6" controlid="5" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="14669" top="18500" logicalid="6" controlid="5" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800002010000088130000" />
                 </control>
@@ -574,7 +583,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="39725" top="22200" logicalid="7" controlid="6" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="39725" top="22200" logicalid="7" controlid="6" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000f310000088130000" />
                 </control>
@@ -585,7 +594,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="28254" top="15725" logicalid="8" controlid="7" masterid="0" hint1="0" hint2="0" width="4657" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="28254" top="15725" logicalid="8" controlid="7" masterid="0" hint1="0" hint2="0" width="4657" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000311200004d0c0000" />
                 </control>
@@ -596,7 +605,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="35311" top="14800" logicalid="9" controlid="8" masterid="0" hint1="0" hint2="0" width="6271" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="35311" top="14800" logicalid="9" controlid="8" masterid="0" hint1="0" hint2="0" width="6271" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800007f18000088130000" />
                 </control>
@@ -607,7 +616,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="21197" top="7400" logicalid="10" controlid="9" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="21197" top="7400" logicalid="10" controlid="9" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800003112000088130000" />
                 </control>
@@ -618,7 +627,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="ResellerSales (dbo.FactResellerSales)" left="19967" top="0" logicalid="11" controlid="10" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales (dbo.FactResellerSales)" left="19967" top="0" logicalid="11" controlid="10" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800002010000088130000" />
                 </control>
@@ -629,7 +638,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductCategory (dbo.DimProductCategory)" left="211" top="22769" logicalid="12" controlid="11" masterid="0" hint1="0" hint2="0" width="5080" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductCategory (dbo.DimProductCategory)" left="211" top="22769" logicalid="12" controlid="11" masterid="0" hint1="0" hint2="0" width="5080" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000d81300004d0c0000" />
                 </control>
@@ -640,7 +649,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="0" top="16797" logicalid="13" controlid="12" masterid="0" hint1="0" hint2="0" width="5503" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="0" top="16797" logicalid="13" controlid="12" masterid="0" hint1="0" hint2="0" width="5503" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800007f150000f40d0000" />
                 </control>
@@ -1224,6 +1233,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Standard Cost</ID>
@@ -1241,6 +1251,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Financial</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Color</ID>
@@ -1259,6 +1270,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Safety Stock Level</ID>
@@ -1276,6 +1288,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Reorder Point</ID>
@@ -1293,6 +1306,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>List Price</ID>
@@ -1310,6 +1324,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Financial</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Size</ID>
@@ -1328,6 +1343,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Size Range</ID>
@@ -1346,6 +1362,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Weight</ID>
@@ -1363,6 +1380,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Days To Manufacture</ID>
@@ -1380,6 +1398,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Product Line</ID>
@@ -1405,6 +1424,7 @@
           </NameColumn>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Dealer Price</ID>
@@ -1422,6 +1442,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Financial</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Class</ID>
@@ -1440,6 +1461,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Style</ID>
@@ -1458,6 +1480,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Stocking</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Model Name</ID>
@@ -1482,6 +1505,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Start Date</ID>
@@ -1499,6 +1523,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>End Date</ID>
@@ -1516,6 +1541,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Status</ID>
@@ -1534,6 +1560,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Product Category Key</ID>
@@ -1555,6 +1582,7 @@
               <ColumnID>EnglishProductCategoryName</ColumnID>
             </Source>
           </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Product Subcategory Key</ID>
@@ -1583,6 +1611,7 @@
               <Name>Category</Name>
             </AttributeRelationship>
           </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Products</AttributeAllMemberName>
@@ -1654,7 +1683,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="20" top="7400" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="20" top="7400" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                 </control>
@@ -1665,7 +1694,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="324" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="324" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
                 </control>
@@ -1823,6 +1852,7 @@
           </AttributeRelationships>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <InstanceSelection>MandatoryFilter</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Birth Date</ID>
@@ -1839,6 +1869,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>MandatoryFilter</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Marital Status</ID>
@@ -1865,6 +1896,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Gender</ID>
@@ -1891,6 +1923,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Yearly Income</ID>
@@ -1910,6 +1943,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Total Children</ID>
@@ -1927,6 +1961,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Number Children At Home</ID>
@@ -1944,6 +1979,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Education</ID>
@@ -1962,6 +1998,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Occupation</ID>
@@ -1980,6 +2017,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>House Owner Flag</ID>
@@ -2006,6 +2044,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Number Cars Owned</ID>
@@ -2023,6 +2062,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Phone</ID>
@@ -2040,6 +2080,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
           <InstanceSelection>MandatoryFilter</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Date First Purchase</ID>
@@ -2063,6 +2104,7 @@
           </NameColumn>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Commute Distance</ID>
@@ -2089,6 +2131,7 @@
           <OrderByAttributeID>Commute Distance Sort</OrderByAttributeID>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>City</ID>
@@ -2114,6 +2157,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>State Province Name</ID>
@@ -2139,6 +2183,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Country Region Name</ID>
@@ -2157,6 +2202,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Postal Code</ID>
@@ -2182,6 +2228,7 @@
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
           <AttributeHierarchyDisplayFolder>Location</AttributeHierarchyDisplayFolder>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Email Address</ID>
@@ -2197,6 +2244,7 @@
             </KeyColumn>
           </KeyColumns>
           <AttributeHierarchyDisplayFolder>Contacts</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Commute Distance Sort</ID>
@@ -2214,6 +2262,7 @@
           <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Customers</AttributeAllMemberName>
@@ -2274,7 +2323,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                 </control>
@@ -2406,6 +2455,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Phone</ID>
@@ -2423,6 +2473,7 @@
           </KeyColumns>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>FilteredList</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Business Type</ID>
@@ -2440,6 +2491,7 @@
           </KeyColumns>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Number Employees</ID>
@@ -2458,6 +2510,7 @@
           <DiscretizationBucketCount>5</DiscretizationBucketCount>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Order Frequency</ID>
@@ -2483,6 +2536,7 @@
           </NameColumn>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Order Month</ID>
@@ -2508,6 +2562,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>First Order Year</ID>
@@ -2533,6 +2588,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Last Order Year</ID>
@@ -2558,6 +2614,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Product Line</ID>
@@ -2575,6 +2632,7 @@
           </KeyColumns>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Annual Sales</ID>
@@ -2592,6 +2650,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Sales Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Bank Name</ID>
@@ -2610,6 +2669,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Min Payment Type</ID>
@@ -2635,6 +2695,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Min Payment Amount</ID>
@@ -2660,6 +2721,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Order Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Annual Revenue</ID>
@@ -2677,6 +2739,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Sales Data</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Year Opened</ID>
@@ -2693,6 +2756,7 @@
           </KeyColumns>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Geography Key</ID>
@@ -2709,6 +2773,7 @@
           <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
           <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Resellers</AttributeAllMemberName>
@@ -2807,7 +2872,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="178" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="178" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000921100004d0c0000" />
                 </control>
@@ -2818,7 +2883,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="20" top="5549" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="20" top="5549" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                 </control>
@@ -2914,6 +2979,7 @@
           <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
           <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>City</ID>
@@ -2936,6 +3002,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>State Province Name</ID>
@@ -2958,6 +3025,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Country Region Name</ID>
@@ -2973,6 +3041,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Postal Code</ID>
@@ -2994,6 +3063,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Geographies</AttributeAllMemberName>
@@ -3048,7 +3118,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000921100004d0c0000" />
                 </control>
@@ -3130,6 +3200,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Territory Country</ID>
@@ -3151,6 +3222,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Territory Group</ID>
@@ -3166,6 +3238,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Sales Territories</AttributeAllMemberName>
@@ -3215,7 +3288,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="20" top="0" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="6165" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="20" top="0" logicalid="3" controlid="1" masterid="0" hint1="0" hint2="0" width="6165" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800001518000088130000" />
                 </control>
@@ -3416,6 +3489,7 @@
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Parent Employee Key</ID>
@@ -3433,6 +3507,7 @@
           <OrderBy>Key</OrderBy>
           <NamingTemplate>Employee Level *;</NamingTemplate>
           <MembersWithData>NonLeafDataHidden</MembersWithData>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Title</ID>
@@ -3451,6 +3526,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Hire Date</ID>
@@ -3476,6 +3552,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Birth Date</ID>
@@ -3494,6 +3571,7 @@
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Login ID</ID>
@@ -3513,6 +3591,7 @@
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Email Address</ID>
@@ -3531,6 +3610,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Contact Information</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Phone</ID>
@@ -3549,6 +3629,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Contact Information</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Marital Status</ID>
@@ -3575,6 +3656,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Emergency Contact Name</ID>
@@ -3593,6 +3675,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Contact Information</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Emergency Contact Phone</ID>
@@ -3611,6 +3694,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Contact Information</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Salaried Flag</ID>
@@ -3628,6 +3712,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Gender</ID>
@@ -3654,6 +3739,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Pay Frequency</ID>
@@ -3679,6 +3765,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Base Rate</ID>
@@ -3697,6 +3784,7 @@
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyDisplayFolder>Demographic</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Vacation Hours</ID>
@@ -3716,6 +3804,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sick Leave Hours</ID>
@@ -3735,6 +3824,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Person Flag</ID>
@@ -3752,6 +3842,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Department Name</ID>
@@ -3770,6 +3861,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Start Date</ID>
@@ -3795,6 +3887,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>List</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>End Date</ID>
@@ -3820,6 +3913,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Status</ID>
@@ -3838,6 +3932,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Hire Year</ID>
@@ -3855,6 +3950,7 @@
           <OrderBy>Key</OrderBy>
           <AttributeHierarchyDisplayFolder>History</AttributeHierarchyDisplayFolder>
           <InstanceSelection>DropDown</InstanceSelection>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Parent Employee National ID Alternate Key</ID>
@@ -3871,6 +3967,7 @@
           </KeyColumns>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Employee National ID Alternate Key</ID>
@@ -3887,6 +3984,7 @@
           </KeyColumns>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
           <AttributeHierarchyDisplayFolder>Organization</AttributeHierarchyDisplayFolder>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Territory Key</ID>
@@ -3903,6 +4001,7 @@
           <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
           <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
           <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Employees</AttributeAllMemberName>
@@ -3952,7 +4051,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000e111000088130000" />
                 </control>
@@ -4058,6 +4157,7 @@
             </AttributeRelationship>
           </AttributeRelationships>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Discount Pct</ID>
@@ -4079,6 +4179,7 @@
             </Source>
           </NameColumn>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Promotion Type</ID>
@@ -4094,6 +4195,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>English Promotion Category</ID>
@@ -4109,6 +4211,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Start Date</ID>
@@ -4131,6 +4234,7 @@
             </Source>
           </NameColumn>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>End Date</ID>
@@ -4153,6 +4257,7 @@
             </Source>
           </NameColumn>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Min Qty</ID>
@@ -4167,6 +4272,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Max Qty</ID>
@@ -4188,6 +4294,7 @@
             </Source>
           </NameColumn>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Promotions</AttributeAllMemberName>
@@ -4237,7 +4344,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="28754" top="30735" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="28754" top="30735" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
                 </control>
@@ -4248,7 +4355,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="11008" top="41836" logicalid="3" controlid="2" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="11008" top="41836" logicalid="3" controlid="2" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000f310000088130000" />
                 </control>
@@ -4259,7 +4366,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="10770" top="34436" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="10770" top="34436" logicalid="4" controlid="3" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                 </control>
@@ -4270,7 +4377,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="32573" top="7400" logicalid="5" controlid="4" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="32573" top="7400" logicalid="5" controlid="4" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                 </control>
@@ -4281,7 +4388,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="6051" top="19636" logicalid="6" controlid="5" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="6051" top="19636" logicalid="6" controlid="5" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000e111000088130000" />
                 </control>
@@ -4292,7 +4399,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="17985" top="34436" logicalid="7" controlid="6" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="17985" top="34436" logicalid="7" controlid="6" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000f310000088130000" />
                 </control>
@@ -4303,7 +4410,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="21699" top="27961" logicalid="8" controlid="7" masterid="0" hint1="0" hint2="0" width="4657" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="21699" top="27961" logicalid="8" controlid="7" masterid="0" hint1="0" hint2="0" width="4657" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000311200004d0c0000" />
                 </control>
@@ -4314,7 +4421,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="13028" top="27036" logicalid="9" controlid="8" masterid="0" hint1="0" hint2="0" width="6271" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="13028" top="27036" logicalid="9" controlid="8" masterid="0" hint1="0" hint2="0" width="6271" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800007f18000088130000" />
                 </control>
@@ -4325,7 +4432,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="35255" top="30735" logicalid="10" controlid="9" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="35255" top="30735" logicalid="10" controlid="9" masterid="0" hint1="0" hint2="0" width="4657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800003112000088130000" />
                 </control>
@@ -4336,7 +4443,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="ResellerSales (dbo.FactResellerSales)" left="17891" top="0" logicalid="11" controlid="10" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales (dbo.FactResellerSales)" left="17891" top="0" logicalid="11" controlid="10" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800002010000088130000" />
                 </control>
@@ -4347,7 +4454,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductCategory (dbo.DimProductCategory)" left="24881" top="14086" logicalid="12" controlid="11" masterid="0" hint1="0" hint2="0" width="5080" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductCategory (dbo.DimProductCategory)" left="24881" top="14086" logicalid="12" controlid="11" masterid="0" hint1="0" hint2="0" width="5080" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000d81300004d0c0000" />
                 </control>
@@ -4358,7 +4465,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="24670" top="8114" logicalid="13" controlid="12" masterid="0" hint1="0" hint2="0" width="5503" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="24670" top="8114" logicalid="13" controlid="12" masterid="0" hint1="0" hint2="0" width="5503" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800007f150000f40d0000" />
                 </control>
@@ -4369,7 +4476,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesReason (dbo.DimSalesReason)" left="28754" top="42837" logicalid="14" controlid="13" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason (dbo.DimSalesReason)" left="28754" top="42837" logicalid="14" controlid="13" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="0008000092110000a50a0000" />
                 </control>
@@ -4380,7 +4487,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="28952" top="38135" logicalid="15" controlid="14" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="28952" top="38135" logicalid="15" controlid="14" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="0008000005100000fe080000" />
                 </control>
@@ -4391,7 +4498,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="0" top="24261" logicalid="16" controlid="15" masterid="0" hint1="0" hint2="0" width="3651" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="0" top="24261" logicalid="16" controlid="15" masterid="0" hint1="0" hint2="0" width="3651" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000430e00004d0c0000" />
                 </control>
@@ -5007,6 +5114,7 @@
               <Name>Ship Date</Name>
             </AttributeRelationship>
           </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Customer PO Number</ID>
@@ -5022,6 +5130,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Order Number</ID>
@@ -5037,6 +5146,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Order Date Key</ID>
@@ -5058,6 +5168,7 @@
               <ColumnID>SimpleDate</ColumnID>
             </Source>
           </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Due Date Key</ID>
@@ -5079,6 +5190,7 @@
               <ColumnID>SimpleDate</ColumnID>
             </Source>
           </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Ship Date Key</ID>
@@ -5100,6 +5212,7 @@
               <ColumnID>SimpleDate</ColumnID>
             </Source>
           </NameColumn>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -5142,7 +5255,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesReason (dbo.DimSalesReason)" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason (dbo.DimSalesReason)" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="0008000092110000a50a0000" />
                 </control>
@@ -5223,6 +5336,7 @@
               <Name>Sales Reason Type</Name>
             </AttributeRelationship>
           </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
         <Attribute>
           <ID>Sales Reason Reason Type</ID>
@@ -5238,6 +5352,7 @@
             </KeyColumn>
           </KeyColumns>
           <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Attribute>
       </Attributes>
       <AttributeAllMemberName>All Sales Reasons</AttributeAllMemberName>
@@ -5284,7 +5399,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="3548" top="14800" logicalid="38" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="3548" top="14800" logicalid="38" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                 </control>
@@ -5295,7 +5410,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="3577" top="11005" logicalid="39" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="3577" top="11005" logicalid="39" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                 </control>
@@ -5306,7 +5421,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="20" top="0" logicalid="40" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="20" top="0" logicalid="40" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
                 </control>
@@ -5317,7 +5432,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="10181" top="7400" logicalid="41" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="10181" top="7400" logicalid="41" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000ac11000088130000" />
                 </control>
@@ -5328,7 +5443,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="3680" top="7400" logicalid="42" controlid="5" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="3680" top="7400" logicalid="42" controlid="5" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
                 </control>
@@ -5453,7 +5568,7 @@
                   <point x="7781" y="9900" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="-1237" top="16005" logicalid="49" controlid="12" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="-1237" top="16005" logicalid="49" controlid="12" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000c611000088130000" />
                 </control>
@@ -5486,7 +5601,7 @@
                   <point x="3313" y="16305" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="3473" top="11005" logicalid="51" controlid="14" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="3473" top="11005" logicalid="51" controlid="14" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800006612000088130000" />
                 </control>
@@ -5517,7 +5632,7 @@
                   <point x="3680" y="11550" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="3525" top="16925" logicalid="53" controlid="16" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="3525" top="16925" logicalid="53" controlid="16" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800009a120000fe0b0000" />
                 </control>
@@ -5568,7 +5683,7 @@
                   <point x="4080" y="12400" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="5165" top="11005" logicalid="56" controlid="19" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="5165" top="11005" logicalid="56" controlid="19" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000800000219000088130000" />
                 </control>
@@ -5620,7 +5735,7 @@
                   <point x="5616" y="11005" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="ResellerSales (dbo.FactResellerSales)" left="0" top="0" logicalid="59" controlid="22" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales (dbo.FactResellerSales)" left="0" top="0" logicalid="59" controlid="22" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000be10000088130000" />
                 </control>
@@ -5791,7 +5906,7 @@
                   <point x="2143" y="5000" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="0" top="0" logicalid="68" controlid="31" masterid="0" hint1="0" hint2="0" width="4180" height="2222" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="0" top="0" logicalid="68" controlid="31" masterid="0" hint1="0" hint2="0" width="4180" height="2222" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="0008000054100000ae080000" />
                 </control>
@@ -5822,7 +5937,7 @@
                   <point x="3740" y="2222" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesReason (dbo.DimSalesReason)" left="12575" top="13058" logicalid="70" controlid="33" masterid="0" hint1="0" hint2="0" width="4604" height="2646" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason (dbo.DimSalesReason)" left="12575" top="13058" logicalid="70" controlid="33" masterid="0" hint1="0" hint2="0" width="4604" height="2646" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000fc110000560a0000" />
                 </control>
@@ -5853,7 +5968,7 @@
                   <point x="4180" y="561" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="0" top="0" logicalid="72" controlid="35" masterid="0" hint1="0" hint2="0" width="3704" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="0" top="0" logicalid="72" controlid="35" masterid="0" hint1="0" hint2="0" width="3704" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="00080000780e0000fe0b0000" />
                 </control>
@@ -8645,6 +8760,7 @@
               <IntermediateCubeDimensionID>Reseller</IntermediateCubeDimensionID>
               <IntermediateGranularityAttributeID>Geography Key</IntermediateGranularityAttributeID>
               <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
             </Dimension>
           </Dimensions>
           <Partitions>
@@ -8819,6 +8935,7 @@
               <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
               <IntermediateGranularityAttributeID>Sales Territory Key</IntermediateGranularityAttributeID>
               <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
             </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>Order Date</CubeDimensionID>
@@ -8921,6 +9038,7 @@
               <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
               <IntermediateGranularityAttributeID>Sales Territory Key</IntermediateGranularityAttributeID>
               <Materialization>Regular</Materialization>
+              <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
             </Dimension>
             <Dimension xsi:type="RegularMeasureGroupDimension">
               <CubeDimensionID>Order Date</CubeDimensionID>
@@ -9324,7 +9442,7 @@ End</Trend>
                     <layoutmanager>
                       <ddsxmlobj />
                     </layoutmanager>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="20" top="0" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="20" top="0" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
                       </control>
@@ -9335,7 +9453,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="6627" top="0" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="6627" top="0" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                       </control>
@@ -9346,7 +9464,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="3548" top="14800" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="3548" top="14800" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                       </control>
@@ -9357,7 +9475,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="10181" top="7400" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="10181" top="7400" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="4524" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000ac11000088130000" />
                       </control>
@@ -9368,7 +9486,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="3680" top="7400" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="3680" top="7400" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
                       </control>
@@ -9491,7 +9609,7 @@ End</Trend>
                         <point x="7781" y="9900" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="16026" top="14800" logicalid="24" controlid="13" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="16026" top="14800" logicalid="24" controlid="13" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                       </control>
@@ -9522,7 +9640,7 @@ End</Trend>
                         <point x="16559" y="14800" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="23625" top="14800" logicalid="26" controlid="15" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="23625" top="14800" logicalid="26" controlid="15" masterid="0" hint1="0" hint2="0" width="4498" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000921100004d0c0000" />
                       </control>
@@ -9573,7 +9691,7 @@ End</Trend>
                         <point x="6627" y="850" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="22792" top="7400" logicalid="29" controlid="18" masterid="0" hint1="0" hint2="0" width="6165" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="22792" top="7400" logicalid="29" controlid="18" masterid="0" hint1="0" hint2="0" width="6165" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800001518000088130000" />
                       </control>
@@ -9623,7 +9741,7 @@ End</Trend>
                         <point x="25874" y="12400" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="31354" top="14800" logicalid="32" controlid="21" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="31354" top="14800" logicalid="32" controlid="21" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000e111000088130000" />
                       </control>
@@ -9654,7 +9772,7 @@ End</Trend>
                         <point x="5730" y="12400" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="ResellerSales (dbo.FactResellerSales)" left="16291" top="7400" logicalid="34" controlid="23" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales (dbo.FactResellerSales)" left="16291" top="7400" logicalid="34" controlid="23" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
                       </control>
@@ -9825,7 +9943,7 @@ End</Trend>
                         <point x="20392" y="8800" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductCategory (dbo.DimProductCategory)" left="7734" top="5972" logicalid="43" controlid="32" masterid="0" hint1="0" hint2="0" width="5054" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductCategory (dbo.DimProductCategory)" left="7734" top="5972" logicalid="43" controlid="32" masterid="0" hint1="0" hint2="0" width="5054" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000be1300004d0c0000" />
                       </control>
@@ -9836,7 +9954,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="7496" top="0" logicalid="44" controlid="33" masterid="0" hint1="0" hint2="0" width="5530" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="7496" top="0" logicalid="44" controlid="33" masterid="0" hint1="0" hint2="0" width="5530" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800009a150000f40d0000" />
                       </control>
@@ -9885,7 +10003,7 @@ End</Trend>
                         <point x="4631" y="14800" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesReason (dbo.DimSalesReason)" left="0" top="4702" logicalid="47" controlid="36" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason (dbo.DimSalesReason)" left="0" top="4702" logicalid="47" controlid="36" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="0008000092110000a50a0000" />
                       </control>
@@ -9896,7 +10014,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="198" top="0" logicalid="48" controlid="37" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="198" top="0" logicalid="48" controlid="37" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="0008000005100000fe080000" />
                       </control>
@@ -9947,7 +10065,7 @@ End</Trend>
                         <point x="3898" y="2302" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="24061" top="1851" logicalid="51" controlid="40" masterid="0" hint1="0" hint2="0" width="3625" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesQuotas (dbo.FactSalesQuota)" left="24061" top="1851" logicalid="51" controlid="40" masterid="0" hint1="0" hint2="0" width="3625" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000290e00004d0c0000" />
                       </control>
@@ -10023,7 +10141,7 @@ End</Trend>
                     <layoutmanager>
                       <ddsxmlobj />
                     </layoutmanager>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Customer (dbo.DimCustomer)" left="-1494" top="22052" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="4233" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer (dbo.DimCustomer)" left="-1494" top="22052" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="4233" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800008910000088130000" />
                       </control>
@@ -10034,7 +10152,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="-1785" top="14652" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="-1785" top="14652" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
                       </control>
@@ -10063,7 +10181,7 @@ End</Trend>
                         <point x="622" y="22052" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="-1521" top="29452" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="-1521" top="29452" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000be10000088130000" />
                       </control>
@@ -10092,7 +10210,7 @@ End</Trend>
                         <point x="622" y="29452" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="5165" top="29452" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="5165" top="29452" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000c611000088130000" />
                       </control>
@@ -10157,7 +10275,7 @@ End</Trend>
                         <point x="2765" y="30302" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="-1601" top="36852" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="4446" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="-1601" top="36852" logicalid="21" controlid="21" masterid="0" hint1="0" hint2="0" width="4446" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800005e11000088130000" />
                       </control>
@@ -10211,7 +10329,7 @@ End</Trend>
                     <layoutmanager>
                       <ddsxmlobj />
                     </layoutmanager>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.DimTime)" left="15488" top="18551" logicalid="25" controlid="1" masterid="0" hint1="0" hint2="0" width="4445" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time (dbo.DimTime)" left="15488" top="18551" logicalid="25" controlid="1" masterid="0" hint1="0" hint2="0" width="4445" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800005d11000088130000" />
                       </control>
@@ -10222,7 +10340,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Product (dbo.DimProduct)" left="12767" top="0" logicalid="26" controlid="2" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product (dbo.DimProduct)" left="12767" top="0" logicalid="26" controlid="2" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
                       </control>
@@ -10233,7 +10351,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Geography (dbo.DimGeography)" left="0" top="12116" logicalid="27" controlid="3" masterid="0" hint1="0" hint2="0" width="4922" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography (dbo.DimGeography)" left="0" top="12116" logicalid="27" controlid="3" masterid="0" hint1="0" hint2="0" width="4922" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800003a13000088130000" />
                       </control>
@@ -10244,7 +10362,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Reseller (dbo.DimReseller)" left="7322" top="12116" logicalid="28" controlid="4" masterid="0" hint1="0" hint2="0" width="3968" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller (dbo.DimReseller)" left="7322" top="12116" logicalid="28" controlid="4" masterid="0" hint1="0" hint2="0" width="3968" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000800f000088130000" />
                       </control>
@@ -10255,7 +10373,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="3264" top="19516" logicalid="29" controlid="5" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory (dbo.DimSalesTerritory)" left="3264" top="19516" logicalid="29" controlid="5" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800009a120000fe0b0000" />
                       </control>
@@ -10266,7 +10384,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Employee (dbo.DimEmployee)" left="2444" top="24986" logicalid="30" controlid="6" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee (dbo.DimEmployee)" left="2444" top="24986" logicalid="30" controlid="6" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800000219000088130000" />
                       </control>
@@ -10277,7 +10395,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Promotion (dbo.DimPromotion)" left="8802" top="25951" logicalid="31" controlid="7" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion (dbo.DimPromotion)" left="8802" top="25951" logicalid="31" controlid="7" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800006612000088130000" />
                       </control>
@@ -10288,7 +10406,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="ResellerSales (dbo.FactResellerSales)" left="8802" top="18551" logicalid="32" controlid="8" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales (dbo.FactResellerSales)" left="8802" top="18551" logicalid="32" controlid="8" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000be10000088130000" />
                       </control>
@@ -10528,7 +10646,7 @@ End</Trend>
                         <point x="8802" y="21051" />
                       </connector>
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductCategory (dbo.DimProductCategory)" left="4969" top="6646" logicalid="45" controlid="21" masterid="0" hint1="0" hint2="0" width="5186" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductCategory (dbo.DimProductCategory)" left="4969" top="6646" logicalid="45" controlid="21" masterid="0" hint1="0" hint2="0" width="5186" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="0008000042140000fe0b0000" />
                       </control>
@@ -10539,7 +10657,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="4757" top="754" logicalid="46" controlid="22" masterid="0" hint1="0" hint2="0" width="5610" height="3492" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimProductSubcategory (dbo.DimProductSubcategory)" left="4757" top="754" logicalid="46" controlid="22" masterid="0" hint1="0" hint2="0" width="5610" height="3492" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="00080000ea150000a40d0000" />
                       </control>
@@ -10611,7 +10729,7 @@ End</Trend>
                     <layoutmanager>
                       <ddsxmlobj />
                     </layoutmanager>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSales (dbo.FactInternetSales)" left="14721" top="7919" logicalid="50" controlid="26" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales (dbo.FactInternetSales)" left="14721" top="7919" logicalid="50" controlid="26" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="000800002010000088130000" />
                       </control>
@@ -10622,7 +10740,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="SalesReason (dbo.DimSalesReason)" left="7823" top="13970" logicalid="51" controlid="27" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason (dbo.DimSalesReason)" left="7823" top="13970" logicalid="51" controlid="27" masterid="0" hint1="0" hint2="0" width="4498" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="0008000092110000a50a0000" />
                       </control>
@@ -10633,7 +10751,7 @@ End</Trend>
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="8220" top="9268" logicalid="52" controlid="28" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSalesReason (dbo.FactInternetSalesReason)" left="8220" top="9268" logicalid="52" controlid="28" masterid="0" hint1="0" hint2="0" width="4101" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
                         <ddsxmlobjectstreaminitwrapper binary="0008000005100000fe080000" />
                       </control>
