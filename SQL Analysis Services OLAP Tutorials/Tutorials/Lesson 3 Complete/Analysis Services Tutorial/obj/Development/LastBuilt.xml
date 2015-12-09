@@ -1,0 +1,170 @@
+﻿<Infos>
+  <Item name="Adventure Works DW.dsv">
+    <Time>632745823139037715</Time>
+    <Hash length="16">
+      <b>252</b>
+      <b>76</b>
+      <b>70</b>
+      <b>161</b>
+      <b>49</b>
+      <b>79</b>
+      <b>69</b>
+      <b>239</b>
+      <b>199</b>
+      <b>204</b>
+      <b>90</b>
+      <b>90</b>
+      <b>20</b>
+      <b>171</b>
+      <b>242</b>
+      <b>181</b>
+    </Hash>
+  </Item>
+  <Item name="Customer.dim">
+    <Time>632745768640202679</Time>
+    <Hash length="16">
+      <b>120</b>
+      <b>202</b>
+      <b>245</b>
+      <b>142</b>
+      <b>106</b>
+      <b>41</b>
+      <b>222</b>
+      <b>32</b>
+      <b>62</b>
+      <b>38</b>
+      <b>69</b>
+      <b>167</b>
+      <b>77</b>
+      <b>6</b>
+      <b>178</b>
+      <b>190</b>
+    </Hash>
+  </Item>
+  <Item name="Time.dim">
+    <Time>632745804251155249</Time>
+    <Hash length="16">
+      <b>54</b>
+      <b>47</b>
+      <b>6</b>
+      <b>59</b>
+      <b>121</b>
+      <b>227</b>
+      <b>172</b>
+      <b>156</b>
+      <b>97</b>
+      <b>86</b>
+      <b>56</b>
+      <b>152</b>
+      <b>41</b>
+      <b>241</b>
+      <b>11</b>
+      <b>123</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.partitions">
+    <Time>632745633361741719</Time>
+    <Hash length="16">
+      <b>50</b>
+      <b>204</b>
+      <b>91</b>
+      <b>34</b>
+      <b>62</b>
+      <b>205</b>
+      <b>108</b>
+      <b>226</b>
+      <b>40</b>
+      <b>128</b>
+      <b>155</b>
+      <b>118</b>
+      <b>14</b>
+      <b>117</b>
+      <b>195</b>
+      <b>176</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.database">
+    <Time>632745564426007802</Time>
+    <Hash length="16">
+      <b>171</b>
+      <b>29</b>
+      <b>179</b>
+      <b>107</b>
+      <b>153</b>
+      <b>143</b>
+      <b>115</b>
+      <b>231</b>
+      <b>82</b>
+      <b>188</b>
+      <b>74</b>
+      <b>131</b>
+      <b>125</b>
+      <b>12</b>
+      <b>143</b>
+      <b>69</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.cube">
+    <Time>632745823142534250</Time>
+    <Hash length="16">
+      <b>91</b>
+      <b>3</b>
+      <b>61</b>
+      <b>168</b>
+      <b>70</b>
+      <b>184</b>
+      <b>250</b>
+      <b>92</b>
+      <b>169</b>
+      <b>77</b>
+      <b>82</b>
+      <b>154</b>
+      <b>101</b>
+      <b>38</b>
+      <b>227</b>
+      <b>124</b>
+    </Hash>
+  </Item>
+  <Item name="Adventure Works DW.ds">
+    <Time>632745594261738322</Time>
+    <Hash length="16">
+      <b>135</b>
+      <b>52</b>
+      <b>61</b>
+      <b>68</b>
+      <b>13</b>
+      <b>253</b>
+      <b>175</b>
+      <b>42</b>
+      <b>221</b>
+      <b>204</b>
+      <b>125</b>
+      <b>223</b>
+      <b>23</b>
+      <b>107</b>
+      <b>137</b>
+      <b>145</b>
+    </Hash>
+  </Item>
+  <Item name="Product.dim">
+    <Time>632745823143832963</Time>
+    <Hash length="16">
+      <b>112</b>
+      <b>235</b>
+      <b>190</b>
+      <b>22</b>
+      <b>191</b>
+      <b>221</b>
+      <b>172</b>
+      <b>145</b>
+      <b>115</b>
+      <b>253</b>
+      <b>245</b>
+      <b>91</b>
+      <b>34</b>
+      <b>94</b>
+      <b>147</b>
+      <b>43</b>
+    </Hash>
+  </Item>
+</Infos>

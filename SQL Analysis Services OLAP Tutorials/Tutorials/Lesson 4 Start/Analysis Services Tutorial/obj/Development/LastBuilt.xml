@@ -1,0 +1,275 @@
+﻿<Infos>
+  <Item name="Sales Territory.dim">
+    <Time>632745886685073354</Time>
+    <Hash length="16">
+      <b>197</b>
+      <b>186</b>
+      <b>196</b>
+      <b>213</b>
+      <b>54</b>
+      <b>123</b>
+      <b>219</b>
+      <b>9</b>
+      <b>92</b>
+      <b>123</b>
+      <b>225</b>
+      <b>179</b>
+      <b>59</b>
+      <b>225</b>
+      <b>77</b>
+      <b>202</b>
+    </Hash>
+  </Item>
+  <Item name="Adventure Works DW.dsv">
+    <Time>632745868820268480</Time>
+    <Hash length="16">
+      <b>61</b>
+      <b>145</b>
+      <b>126</b>
+      <b>234</b>
+      <b>38</b>
+      <b>136</b>
+      <b>149</b>
+      <b>245</b>
+      <b>128</b>
+      <b>211</b>
+      <b>143</b>
+      <b>184</b>
+      <b>58</b>
+      <b>242</b>
+      <b>151</b>
+      <b>41</b>
+    </Hash>
+  </Item>
+  <Item name="Customer.dim">
+    <Time>632745875097248112</Time>
+    <Hash length="16">
+      <b>153</b>
+      <b>3</b>
+      <b>32</b>
+      <b>158</b>
+      <b>198</b>
+      <b>50</b>
+      <b>96</b>
+      <b>198</b>
+      <b>244</b>
+      <b>232</b>
+      <b>96</b>
+      <b>249</b>
+      <b>130</b>
+      <b>140</b>
+      <b>192</b>
+      <b>46</b>
+    </Hash>
+  </Item>
+  <Item name="Time.dim">
+    <Time>632745875100444944</Time>
+    <Hash length="16">
+      <b>156</b>
+      <b>198</b>
+      <b>199</b>
+      <b>15</b>
+      <b>86</b>
+      <b>199</b>
+      <b>39</b>
+      <b>98</b>
+      <b>173</b>
+      <b>228</b>
+      <b>117</b>
+      <b>252</b>
+      <b>98</b>
+      <b>105</b>
+      <b>172</b>
+      <b>56</b>
+    </Hash>
+  </Item>
+  <Item name="Geography.dim">
+    <Time>632745885385071448</Time>
+    <Hash length="16">
+      <b>42</b>
+      <b>19</b>
+      <b>151</b>
+      <b>211</b>
+      <b>212</b>
+      <b>180</b>
+      <b>96</b>
+      <b>166</b>
+      <b>59</b>
+      <b>85</b>
+      <b>69</b>
+      <b>70</b>
+      <b>44</b>
+      <b>224</b>
+      <b>245</b>
+      <b>215</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.partitions">
+    <Time>632748170042269667</Time>
+    <Hash length="16">
+      <b>216</b>
+      <b>158</b>
+      <b>140</b>
+      <b>191</b>
+      <b>185</b>
+      <b>208</b>
+      <b>67</b>
+      <b>120</b>
+      <b>143</b>
+      <b>39</b>
+      <b>92</b>
+      <b>80</b>
+      <b>22</b>
+      <b>254</b>
+      <b>3</b>
+      <b>113</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.database">
+    <Time>632745564426007802</Time>
+    <Hash length="16">
+      <b>171</b>
+      <b>29</b>
+      <b>179</b>
+      <b>107</b>
+      <b>153</b>
+      <b>143</b>
+      <b>115</b>
+      <b>231</b>
+      <b>82</b>
+      <b>188</b>
+      <b>74</b>
+      <b>131</b>
+      <b>125</b>
+      <b>12</b>
+      <b>143</b>
+      <b>69</b>
+    </Hash>
+  </Item>
+  <Item name="Employee.dim">
+    <Time>632745895292955308</Time>
+    <Hash length="16">
+      <b>175</b>
+      <b>71</b>
+      <b>78</b>
+      <b>240</b>
+      <b>110</b>
+      <b>116</b>
+      <b>4</b>
+      <b>160</b>
+      <b>83</b>
+      <b>78</b>
+      <b>30</b>
+      <b>155</b>
+      <b>15</b>
+      <b>10</b>
+      <b>238</b>
+      <b>195</b>
+    </Hash>
+  </Item>
+  <Item name="Adventure Works DW.ds">
+    <Time>632745594261738322</Time>
+    <Hash length="16">
+      <b>135</b>
+      <b>52</b>
+      <b>61</b>
+      <b>68</b>
+      <b>13</b>
+      <b>253</b>
+      <b>175</b>
+      <b>42</b>
+      <b>221</b>
+      <b>204</b>
+      <b>125</b>
+      <b>223</b>
+      <b>23</b>
+      <b>107</b>
+      <b>137</b>
+      <b>145</b>
+    </Hash>
+  </Item>
+  <Item name="Analysis Services Tutorial.cube">
+    <Time>632748173138543246</Time>
+    <Hash length="16">
+      <b>60</b>
+      <b>222</b>
+      <b>57</b>
+      <b>131</b>
+      <b>228</b>
+      <b>183</b>
+      <b>81</b>
+      <b>43</b>
+      <b>153</b>
+      <b>9</b>
+      <b>179</b>
+      <b>51</b>
+      <b>186</b>
+      <b>224</b>
+      <b>139</b>
+      <b>151</b>
+    </Hash>
+  </Item>
+  <Item name="Reseller.dim">
+    <Time>632745882630260088</Time>
+    <Hash length="16">
+      <b>150</b>
+      <b>22</b>
+      <b>23</b>
+      <b>112</b>
+      <b>184</b>
+      <b>255</b>
+      <b>235</b>
+      <b>182</b>
+      <b>132</b>
+      <b>157</b>
+      <b>227</b>
+      <b>101</b>
+      <b>13</b>
+      <b>114</b>
+      <b>246</b>
+      <b>92</b>
+    </Hash>
+  </Item>
+  <Item name="Product.dim">
+    <Time>632745823143832963</Time>
+    <Hash length="16">
+      <b>112</b>
+      <b>235</b>
+      <b>190</b>
+      <b>22</b>
+      <b>191</b>
+      <b>221</b>
+      <b>172</b>
+      <b>145</b>
+      <b>115</b>
+      <b>253</b>
+      <b>245</b>
+      <b>91</b>
+      <b>34</b>
+      <b>94</b>
+      <b>147</b>
+      <b>43</b>
+    </Hash>
+  </Item>
+  <Item name="Promotion.dim">
+    <Time>632745898022266592</Time>
+    <Hash length="16">
+      <b>66</b>
+      <b>157</b>
+      <b>75</b>
+      <b>165</b>
+      <b>57</b>
+      <b>28</b>
+      <b>57</b>
+      <b>74</b>
+      <b>139</b>
+      <b>167</b>
+      <b>43</b>
+      <b>115</b>
+      <b>242</b>
+      <b>0</b>
+      <b>43</b>
+      <b>157</b>
+    </Hash>
+  </Item>
+</Infos>
