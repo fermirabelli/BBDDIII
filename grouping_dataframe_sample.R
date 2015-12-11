@@ -1,8 +1,8 @@
 #Alternativa 1 
 library(doBy)
-age    = c(23.0883, 25.8344, 29.4648, 32.7858, 33.6372,
-           34.935,  35.2115, 35.2115,  5.2115, 36.7803)
-group  = c(1, 1, 1, 2, 1, 1, 2, 2, 2, 1)
+age    = c(43.0883, 55.8344, 29.4708, 32.7858, 33.6372,
+           34.935,  35.2115, 35.0115,  5.2115, 36.7803)
+group  = c(1, 2, 1, 2, 1, 1, 2, 2, 2, 1)
 df1 = data.frame(age=age, group=group)
 summaryBy(age~group, data=df1, FUN=c(mean, sd))
 
@@ -20,3 +20,16 @@ df3 <- data.frame(age=rnorm(20,10,5), grp=sample(1:2,20, rep=T))
 sqldf('  select grp,avg(age) from df3 group by grp  ')
 
 
+# Solo para contar casos agrupados 
+
+#Alternativa 1 
+
+df4 <- data.frame(age=rpois(20, lambda = 4), grp=sample(1:2,20, rep=T))
+data.frame(table(df4$grp))
+
+#Alternativa 2 
+df5 <- data.frame(age=rnrom(20,3,1), grp=sample(1:2,20, rep=T))
+
+aggregate(cbind(count = age) ~ grp, 
+          data = df5, 
+          FUN = function(x){NROW(x)})
