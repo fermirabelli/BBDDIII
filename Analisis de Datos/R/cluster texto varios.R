@@ -71,9 +71,6 @@ ws_ordenado<- ws[order(-ws$cantidad),]
 newdata <- subset(parse, is.na(from) )
 
 
-
-parse[]
-
 dat <- lapply(parse, function(j) {
   as.data.frame(replace(j, sapply(j, is.list), NA))
 })
@@ -151,3 +148,113 @@ df <- data.frame(ws,cutree(hc,k=18))
 
 
 
+
+#clustering de textos
+
+# quito na
+
+
+parse$from[(is.na(parse$from))] <- 'Fer'
+
+# Modifico nombres
+
+parse$from[(parse$from=='Fer')] <- 'Yo'
+
+parse$from[(parse$from=='dario')] <- 'Dario Quaglia'
+parse$from[(parse$from=='capi')] <- 'capi Vanneta'
+
+parse$from[(parse$from=='foty')] <- 'Andres Foty'
+
+parse$from[grep("Germ+",parse$from, perl=TRUE, value=FALSE)]<-'Moner'
+
+parse$from[grep("San+",parse$from, perl=TRUE, value=FALSE)]<-'Santiago Remon'
+
+parse$from[grep("Dias+",parse$from, perl=TRUE, value=FALSE)]<-'Pato'
+
+
+
+ws_ordenado<- ws[order(ws$from),]
+
+cbind(ws_ordenado,length(ws_ordenado$from))
+
+
+
+#Eliminar espacios al principio y al final de un texto 
+
+trimfunc <- function (x) gsub("^\\s+|\\s+$", "", x)
+
+#Para usar la funcion 
+
+parse$from <- trimfunc(parse$from)
+
+# Levenshtein Distance
+d  <- adist(parse$from)
+rownames(d) <- parse$from
+
+# armo el dendograma 
+hc <- hclust(as.dist(d))
+plot(hc)
+
+# Defino las marcas para 18 clusters
+rect.hclust(hc,k=18)
+df <- data.frame(parse,cluster=cutree(hc,k=18))
+head(df)
+table(df$from,df$cluster)
+subset(df,cluster==17)[1,]$from
+names(parse)
+
+table(df$jid,df$cluster) #algunos cambiaron de telefono 
+table(parse$status)
+table(parse$dir)
+
+r<-sort(table(parse$type),decreasing=T)[1]
+class(r)
+
+df$from[df$cluster==1,]
+df[df$cluster==1]$name <- 3
+df<-cbind(df,name="dfff")
+
+drops <- c("name")
+df<-df[,!(names(df) %in% drops)]
+
+
+ll<-data.frame(table(df[df$cluster==1,]$from))
+ll[which.max(ll$Freq),]$Var1
+
+ll<-table(df[df$cluster==1,]$from)
+
+names[which.max(names$Freq),]$Var1
+names(ll[which.max(ll)])
+
+
+name_m<-table(df[df$cluster==1,]$from)
+r<-names(name_m[which.max(name_m)])
+
+class(df$name)
+cat(paste("cluster ", i, ": ",r, sep = ""))
+
+setDT(df)[cluster==1,  name := r ]
+
+library(data.table)
+
+k<-18
+for (i in 1:k) {
+  
+
+  name_m<-table(df[df$cluster==i,]$from)
+  r<-names(name_m[which.max(name_m)])
+
+  cat(paste("cluster ", i, ": ",r, sep = ""))
+  
+  setDT(df)[cluster==i,  name := r ]
+  
+  # print the tweets of every cluster
+  
+  # print(tweets[which(kmeansResult£cluster==i)])
+  
+}
+df
+ws
+warnings()
+
+table(df$name)
