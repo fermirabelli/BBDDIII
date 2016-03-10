@@ -1,22 +1,39 @@
 # Ejemplo para ordenar un Data Frame
 attach(iris)
 
-# Ordenar por Petal.Length
-DF_ordenado<- iris[order(Petal.Length),]
+# log transform 
+log.ir <- log(iris[, 1:4])
+ir.species <- iris[, 5]
 
-#Ver DF
-DF_ordenado
+# apply PCA - scale. = TRUE is highly 
+# advisable, but default is FALSE. 
+ir.pca <- prcomp(log.ir,
+                 center = TRUE,
+                 scale. = TRUE) 
+plot(iris)
+# print method
+print(ir.pca)
 
-# Ordenar por Petal.Length y luego por Petal.Width
-DF_ordenado<- iris[order(Petal.Length,Petal.Width),]
+# plot method
+plot(ir.pca, type = "l")
 
+# summary method
+summary(ir.pca)
 
-#Ver DF 
-DF_ordenado
+library(devtools)
+install_github("ggbiplot", "vqv")
 
+library(ggbiplot)
+g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1, 
+              groups = ir.species, ellipse = TRUE, 
+              circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal', 
+               legend.position = 'top')
+print(g)
 
-# Ordenar por Petal.Length (ascendente) y luego por Petal.Width (descendente)
-DF_ordenado<- iris[order(Petal.Length,-Petal.Width),]
-
-
-detach(iris)
+require(caret)
+trans = preProcess(iris[,1:4], 
+                   method=c("BoxCox", "center", 
+                            "scale", "pca"))
+PC = predict(trans, iris[,1:4])
