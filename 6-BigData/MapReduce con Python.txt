@@ -1,4 +1,4 @@
-APACHE PIG Codigo de Ejemplo:
+Aplicación de Map-Reduce sobre HADOOP utilizando python para codificar el ejemplo "WordCount" sobre archivos de texto:
 
 
 [1] Crear archivo con codigo en python para las tareas de map:
