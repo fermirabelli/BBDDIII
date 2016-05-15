@@ -1,86 +1,94 @@
-APACHE PIG SLIDES:
+APACHE PIG Codigo de Ejemplo:
 
-[1] Copying files into HDFS, Start Pig:
+[1] Copiar archivos a HDFS:
 
-hdfs dfs -put /etc/passwd /user/cloudera
+	hdfs dfs -put /etc/passwd /user/cloudera
 
-pig -x mapreduce
+[2] Arrancar Pig:
 
-[2] Once in grunt, the following commands are run:
+	pig -x mapreduce
 
-A = load '/user/cloudera/passwd' using PigStorage(':');
+[3] Una vez con el prompt de grunt, correr el siguiente codigo:
 
-B = foreach A generate $0, $4, $5;
+	A = load '/user/cloudera/passwd' using PigStorage(':');
 
-dump B;
+	B = foreach A generate $0, $4, $5;
 
-[3] Store output:
+	dump B;
 
-store B into 'userinfo.out';
+[4] Almacenar la salida:
 
-quit
+	store B into 'userinfo.out';
+
+[5] Salir de Pig:
+
+	quit
 
 [4] Check output in HDFS:
 
-hdfs dfs -ls /user/cloudera
+	hdfs dfs -ls /user/cloudera
 
-APACHE HIVE SLIDES:
 
-[1] Copy file into HDFS, start beeline:
+APACHE HIVE Codigo de Ejemplo:
 
-hdfs dfs -put /etc/passwd /tmp/
+[1] Copiar archivo en HDFS:
 
-beeline -u jdbc:hive2://
+	hdfs dfs -put /etc/passwd /tmp/
 
-[2] Run HIVE commands:
+[2] Arrancar beeline:
 
-CREATE TABLE userinfo ( uname STRING, pswd STRING, uid INT, gid INT, fullname STRING, hdir STRING, shell STRING ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ':' STORED AS TEXTFILE;
+	beeline -u jdbc:hive2://
 
-LOAD DATA INPATH '/tmp/passwd' OVERWRITE INTO TABLE userinfo;
+[3] Ejecutar comandos en HIVE:
 
-SELECT uname, fullname, hdir FROM userinfo ORDER BY uname ;
+	CREATE TABLE userinfo ( uname STRING, pswd STRING, uid INT, gid INT, fullname STRING, hdir 	STRING,shell STRING ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ':' STORED AS TEXTFILE;
 
-[3] To exit out of beeline:
+	LOAD DATA INPATH '/tmp/passwd' OVERWRITE INTO TABLE userinfo;
 
-!q
+	SELECT uname, fullname, hdir FROM userinfo ORDER BY uname ;
 
-APACHE HBASE SLIDES:
+[4] Para salir de beeline:
 
-[1] Enter HBase Shell:
+	!q
 
-hbase shell
 
-[2] Create table and entries:
+APACHE HBASE Codigo de Ejemplo:
 
-create 'userinfotable',{NAME=>'username'},{NAME=>'fullname'},{NAME=>'homedir'}
+[1] Entrar al shell de HBase:
 
-put 'userinfotable','r1','username','vcsa'
+	hbase shell
 
-put 'userinfotable','r2','username','sasuser'
+[2] Crear la tabla y las entradas:
 
-put 'userinfotable','r3','username','postfix'
+	create 'userinfotable',{NAME=>'username'},{NAME=>'fullname'},{NAME=>'homedir'}
 
-put 'userinfotable','r1','fullname','VirtualMachine Admin'
+	put 'userinfotable','r1','username','vcsa'
 
-put 'userinfotable','r2','fullname','SAS Admin'
+	put 'userinfotable','r2','username','sasuser'
 
-put 'userinfotable','r3','fullname','Postfix User'
+	put 'userinfotable','r3','username','postfix'
 
-put 'userinfotable','r1','homedir','/home/vcsa'
+	put 'userinfotable','r1','fullname','VirtualMachine Admin'
 
-put 'userinfotable','r2','homedir','/var/sasuser'
+	put 'userinfotable','r2','fullname','SAS Admin'
 
-put 'userinfotable','r3','homedir','/user/postfix'
+	put 'userinfotable','r3','fullname','Postfix User'
 
-[3] Check entries:
+	put 'userinfotable','r1','homedir','/home/vcsa'
 
-scan 'userinfotable'
+	put 'userinfotable','r2','homedir','/var/sasuser'
 
-[4] Select "fullname" column:
+	put 'userinfotable','r3','homedir','/user/postfix'
 
-scan 'userinfotable',{COLUMNS=>'fullname'}
+[3] Verificar las entradas:
 
-[5] Quit HBase shell:
+	scan 'userinfotable'
 
-exit
+[4] Select a la columna "fullname":
+
+	scan 'userinfotable',{COLUMNS=>'fullname'}
+
+[5] Salir del shell de HBase:
+
+	exit
 
