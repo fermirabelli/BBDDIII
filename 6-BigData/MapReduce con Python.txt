@@ -1,0 +1,95 @@
+APACHE PIG Codigo de Ejemplo:
+
+
+[1] Crear archivo con codigo en python para las tareas de map:
+	wordcount_mapper.py
+	
+	>gedit wordcount_mapper.py
+
+	
+[2] Crear archivo con codigo en python para las tareas de reduce:
+	wordcount_reducer.py
+	
+	> gedit wordcount_reducer.py
+	
+		Aclaración sobre codigo en python
+
+		#    1 La identación es necesaria para indicar los bloques de codigo,
+		#    2  todo el codigo que se ejecutará en el mismo nivel de control de flujo
+		#          (p.ej. bloques if or for ) tienen que tener el mismo nivel de identación
+		#          (para evitar problemas usar 4 espacios por nivel de identación, y no mezclar con tabulación)
+		#    3 condiciones de control de flujo deben tener un ':' antes ddel correspondiente 
+		#			bloque de codigo
+		
+
+[3] Asignar permisos de ejecución:
+
+	> chmod +x wordcount_mapper.py
+
+	> chmod +x wordcount_reducer.py
+
+	
+[4] Verificar directorio actual para generar archivos con texto de prueba:
+	
+	>pwd
+	
+	
+[5] Generar archivos de prueba:
+
+	> echo "A long time ago in a galaxy far far away" > /home/cloudera/testfile1
+
+	> echo "Another episode of Star Wars" > /home/cloudera/testfile2
+
+
+[6] Crear directorio en hadoop para almacenar los archivos de prueba:
+
+	>hdfs dfs -mkdir /user/cloudera/input
+	
+	
+[7] Copiar archivos a file system HDFS:
+
+	>hdfs dfs -put /home/cloudera/testfile1 /user/cloudera/input
+
+	>hdfs dfs -put /home/cloudera/testfile2 /user/cloudera/input
+
+	
+[8] Verificar los archiovos en el file system HDFS:
+
+	>hdfs dfs -ls /user/cloudera/input
+
+	
+[9] Ejecutar el ejemplo de Worcount en hadoop con el siguiente codigo (los '\' implican salto de linea):
+	
+	>hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+		-input /user/cloudera/input \
+		-output /user/cloudera/output_new \
+		-mapper /home/cloudera/wordcount_mapper.py \
+		-reducer /home/cloudera/wordcount_reducer.py
+
+[10] Verificar el archivo de salida del proceso de map-reduce de hadoop:
+
+	>hdfs dfs -cat /user/cloudera/output_new/part-00000
+
+
+[11] Ejecutar el ejemplo de Worcount en hadoop con el siguiente codigo agregado el parametro de cantidad procesos de reduce en cero:
+	
+	>hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+		-input /user/cloudera/input \
+		-output /user/cloudera/output_new_0 \
+		-mapper /home/cloudera/wordcount_mapper.py \
+		-reducer /home/cloudera/wordcount_reducer.py \
+		-numReduceTasks 0
+
+   
+[11] Almacenar la salida del ejemplo de wordcount y traerlo del file system de hadoop para verificarla:
+
+	> hdfs dfs -getmerge /user/cloudera/output_new_0/* wordcount_num0_output.txt
+	
+[12] Relizar nuevamente la prueba agregando 2 procesos de reduce y verificar los resultados:
+
+	>hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
+		-input /user/cloudera/input \
+		-output /user/cloudera/output_new_0 \
+		-mapper /home/cloudera/wordcount_mapper.py \
+		-reducer /home/cloudera/wordcount_reducer.py \
+		-numReduceTasks 2
