@@ -1,0 +1,4 @@
+-Beginning C# 6 Programming with Visual Studio 2015, Autores : Perkins, Jacob Vibe Hammer, Jon D. Reid, Editorial : Wiley / Wrox
+-Head First C#, Autores : Andrew Stellman, Jennifer Greene, Editorial : O'Reilly
+-Microsoft SQL Server 2012 T-SQL Fundamentals, Autor : Itzik Ben-Gan, Editorial : Microsoft
+-Beginning Microsoft SQL Server 2012 Programming, Autores : Paul Atkinson, Robert Vieira, Editorial : Wrox
