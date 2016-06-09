@@ -1,0 +1,39 @@
+Como cargar un csv en SQL Server
+
+1) Crear tabla en SS de ejemplo
+
+	USE TestDB
+	GO
+		CREATE TABLE CSVFile
+			(ID INT,
+			FirstName VARCHAR(40),
+			LastName VARCHAR(40),
+			BirthDate SMALLDATETIME)
+	GO
+
+2) Crear Archivo csv de ejemplo cracks.csv y guardarlo en C: por ejemplo
+
+
+	1,Diego,Maradona,19750101
+	2,Lionel,Messi,19790122
+	3,Alfredo,Distefano,20071101
+	4,Roman,Riquelme,20040202
+
+3)
+
+	BULK
+		INSERT CSVFile
+			FROM 'c:\cracks.csv'
+				WITH
+				(
+					FIELDTERMINATOR = ',',
+					ROWTERMINATOR = '\n'
+				)
+	GO
+
+
+	Nota: Puede suceder que al insertar algunaas lineas fallen y otras se inserten (https://msdn.microsoft.com/es-es/library/ms188365%28v=sql.120%29.aspx) 
+	
+4) Verificar la inserción
+
+	SELECT * FROM CSVFile

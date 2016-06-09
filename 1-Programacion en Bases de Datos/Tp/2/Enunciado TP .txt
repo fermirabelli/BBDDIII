@@ -1,0 +1,23 @@
+-Dado el siguiente DataSet en formato de texto plano con campos separado por comas https://cdn.rawgit.com/times/data/master/sunday_times_panama_data.zip
+
+-Crear un esquema relacional para poder almacenarlo en un motor de bases de datos SQL Server y que cumpla con las tres primeras formas normales.
+
+-Luego de estar creado el esquema realizar estas dos tareas :
+
+Grupo 1)
+
+	Crear un Stored Procedure que tome como parametro el nombre de archivo, luego lo cargue lo cargue en una tabla especifica para la carga y luego de que la carga fue exitosa poblar las tabas del esquema normalizado con esa informacion.
+	
+Grupo 2)
+	
+	Crear un Trigger sobre un tabla especifica para que se inserte un nuvo registro con el formato definido en el dataset, este trigger deberá verificar los valores de cada campo y segun requiera se insertara la informacion correspondiente en cada una de las tablas del esquema normalizado si no existe previamente, en caso de que toda la informacion insertada exista previamente devolver un mensaje de error informando esta situacion .
+
+
+Temas para ver :
+
+- Manejo de fechas/ conversion de formato para insertar correctamente
+
+- Uso de Cursores  https://msdn.microsoft.com/es-es/library/ms180169(v=sql.120).aspx
+
+- Manejo de Errores enviados pro el usuario https://msdn.microsoft.com/es-AR/library/ms178592.aspx
+  	
