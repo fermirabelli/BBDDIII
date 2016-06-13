@@ -1,0 +1,7 @@
+- Info adicional para instalar Cloudera Manager en Ubuntu Server 14.04
+
+-Usuario unico para todos los servicios , agregar en sudoers
+https://community.cloudera.com/t5/Cloudera-Manager-Installation/Exhausted-available-authentication-methods/m-p/28462#M4731
+
+-Deshabilitar ip6 
+http://askubuntu.com/questions/440649/how-to-disable-ipv6-in-ubuntu-14-04
