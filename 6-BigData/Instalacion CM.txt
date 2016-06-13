@@ -1,3 +1,6 @@
+- Instalacion de CLoudera Manager para gestion de los Clusters y sus hosts
+http://www.cloudera.com/documentation/manager/5-1-x/Cloudera-Manager-Installation-Guide/cm5ig_install_path_A.html?scroll=cmig_topic_6_5
+
 - Info adicional para instalar Cloudera Manager en Ubuntu Server 14.04
 
 -Usuario unico para todos los servicios , agregar en sudoers
