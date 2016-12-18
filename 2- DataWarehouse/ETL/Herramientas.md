@@ -1,0 +1,51 @@
+# **Herramientas para ETL**
+
+## **Open Source :** 
+
+* ### Pentaho Kettle
+
+http://community.pentaho.com/projects/data-integration/
+
+* ### JasperSoft ETL de Talend :
+
+http://community.jaspersoft.com/project/jaspersoft-etl/releases
+
+## **Propietarias :**
+
+* ### SQL Server Integration Services:
+
+https://msdn.microsoft.com/en-us/library/mt204009.aspx
+
+* ### Oracle Data Integrator (ODI)
+
+	* Errores en integracion de Datos con Oracle 
+	http://www.oracle.com/us/products/middleware/data-integration/big-data-integration-mistakes-wp-2492054.pdf
+
+	* Oracle Data Integration Learning
+	http://www.oracle.com/technetwork/middleware/data-integrator/learnmore/index.html
+
+* ### Clover ETL
+
+http://www.cloveretl.com
+
+
+# **Migracion**
+
+## **Open Source**
+
+* ### Open DB Copy
+http://opendbcopy.sourceforge.net/
+
+* ### SQL Server Data Tools:
+
+https://msdn.microsoft.com/en-us/library/mt204009.aspx
+
+## **Propietarias :**
+
+* ### MySQL Workbench Database Migration Tool
+
+http://www.mysql.com/products/workbench/
+
+
+
+
