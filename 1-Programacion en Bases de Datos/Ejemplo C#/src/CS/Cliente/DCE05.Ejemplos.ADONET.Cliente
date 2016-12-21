@@ -9,6 +9,27 @@
             Representa la opción de agregar un ítem de venta a una venta iniciada.
             </summary>
         </member>
+        <member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion">
+            <summary>
+            Representa una opción genérica.
+            Todas las opciones del sistema deben heredar de esta opción.
+            </summary>
+        </member>
+        <member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.EjecutarAccion">
+            <summary>
+            Ejecuta la acción asociada a la opción.
+            </summary>
+        </member>
+        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Codigo">
+            <summary>
+            El código de la opción.
+            </summary>
+        </member>
+        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Descripcion">
+            <summary>
+            La descripción de la opción.
+            </summary>
+        </member>
         <member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionAgregarItemVenta.#ctor(System.Int32)">
             <summary>
             Construye una instancia de la opción con sus datos básicos.
@@ -133,27 +154,6 @@
             Ejecuta la acción asociada a la opción.
             </summary>
         </member>
-        <member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion">
-            <summary>
-            Representa una opción genérica.
-            Todas las opciones del sistema deben heredar de esta opción.
-            </summary>
-        </member>
-        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Codigo">
-            <summary>
-            El código de la opción.
-            </summary>
-        </member>
-        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.Descripcion">
-            <summary>
-            La descripción de la opción.
-            </summary>
-        </member>
-        <member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.Opcion.EjecutarAccion">
-            <summary>
-            Ejecuta la acción asociada a la opción.
-            </summary>
-        </member>
         <member name="T:DCE05.Ejemplos.EstrellaUno.Cliente.OpcionListarCarrito">
             <summary>
             Representa la opción de listar el carrito de compras.
@@ -192,11 +192,6 @@
             Representa la aplicación cliente.
             </summary>
         </member>
-        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.VentaActual">
-            <summary>
-            La venta actual que se está llevando a cabo en el Punto de Venta.
-            </summary>
-        </member>
         <member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.Iniciar">
             <summary>
             Controla el flujo de ejecución de la aplicación.
@@ -223,6 +218,11 @@
         <member name="M:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.MostrarVentaActual">
             <summary>
             Muestra los datos de la venta actual.
+            </summary>
+        </member>
+        <member name="P:DCE05.Ejemplos.EstrellaUno.Cliente.PuntoDeVenta.VentaActual">
+            <summary>
+            La venta actual que se está llevando a cabo en el Punto de Venta.
             </summary>
         </member>
     </members>

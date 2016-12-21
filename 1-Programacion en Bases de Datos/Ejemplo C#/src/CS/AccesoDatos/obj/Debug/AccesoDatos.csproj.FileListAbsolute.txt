@@ -1,5 +1,5 @@
-C:\Users\fer\Documents\repos\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
-C:\Users\fer\Documents\repos\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
-C:\Users\fer\Documents\repos\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
-C:\Users\fer\Documents\repos\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
-C:\Users\fer\Documents\repos\BBDDIII\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+F:\Documents\Fedo\Base de Datos 3\BBDDIII-master\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+F:\Documents\Fedo\Base de Datos 3\BBDDIII-master\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\bin\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb
+F:\Documents\Fedo\Base de Datos 3\BBDDIII-master\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+F:\Documents\Fedo\Base de Datos 3\BBDDIII-master\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.dll
+F:\Documents\Fedo\Base de Datos 3\BBDDIII-master\Programacion en Bases de Datos\Ejemplo C#\src\CS\AccesoDatos\obj\Debug\DCE05.Ejemplos.EstrellaUno.AccesoDatos.pdb

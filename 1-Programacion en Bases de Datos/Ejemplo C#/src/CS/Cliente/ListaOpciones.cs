@@ -24,6 +24,7 @@ namespace DCE05.Ejemplos.EstrellaUno.Cliente {
             opciones.Add(new OpcionListarCarrito(4));
             opciones.Add(new OpcionConfirmarVenta(5));
             opciones.Add(new OpcionCancelarVenta(6));
+            opciones.Add(new OpcionCrearUsuario(7));
             opciones.Add(new OpcionSalir(99));
         }
 
